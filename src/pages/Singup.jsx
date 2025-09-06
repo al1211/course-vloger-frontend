@@ -102,7 +102,7 @@ const Singup = () => {
             </label>
             <input
               id="password"
-              type={showPassword ? "password" : "text"}
+              type={showPassword ? "text" : "password"}
               className="border-1 w-[100%] h-[35px] border-[#e7e6e6] text-[15px] px-[20px]    focus:outline-none focus:border-gray-500 focus:ring-1 focus:ring-gray-500 "
               placeholder="your password"
               value={password}
