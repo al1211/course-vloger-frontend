@@ -11,7 +11,7 @@ import {
 import Home from "./pages/Home";
 import Singup from "./pages/Singup";
 import Login from "./pages/Login";
-export const ServerUrl = "http://localhost:8000";
+export const ServerUrl = "https://course-vloger-backend.onrender.com";
 import { ToastContainer } from "react-toastify";
 
 import usegetCurrenthook from "./CustomHook/getCurrenthook";
