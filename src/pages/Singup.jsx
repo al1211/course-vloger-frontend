@@ -25,7 +25,7 @@ const Singup = () => {
   const handleSingup = async () => {
     setLoading(true)
     try{
-    const result=await axios.post(ServerUrl+"/api/auth/singup",{name,password,email,role},
+    const result=await axios.post(ServerUrl+"/api/auth/signup",{name,password,email,role},
         {withCredentials:true}
     );
     console.log(result)
