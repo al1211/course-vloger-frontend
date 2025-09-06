@@ -32,7 +32,7 @@ const Singup = () => {
     dispatch(setUserData(result?.data))
     setLoading(false);
     navigate("/");
-    toast.done("Singup Succesfully");
+    toast.success("Singup Succesfully");
     }catch(err){
         console.log(err);
         setLoading(false)
