@@ -29,7 +29,7 @@ const Singup = () => {
         {withCredentials:true}
     );
     console.log(result)
-    dispatch(setUserData(result?.data))
+    dispatch(setUserData(result?.data?.user))
     setLoading(false);
     navigate("/");
     toast.success("Singup Succesfully");
