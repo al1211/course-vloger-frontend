@@ -57,7 +57,7 @@ const Nav = () => {
               className="w-[50px] h-[50px] flex rounded-full text-white items-center justify-center text-[20px] border-2 bg-black border-white cursor-pointer"
               onClick={() => setShow((prev) => !prev)}
             >
-              {userData?.name.slice(0, 1).toUpperCase()}{" "}
+              {userData?.name?.slice(0, 1).toUpperCase()}{" "}
             </div>
           )}
           {userData?.role === "educator" && (
