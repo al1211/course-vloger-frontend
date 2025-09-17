@@ -11,8 +11,9 @@ import {
 import Home from "./pages/Home";
 import Singup from "./pages/Singup";
 import Login from "./pages/Login";
-export const ServerUrl = "https://course-vloger-backend.onrender.com";
 import { ToastContainer } from "react-toastify";
+
+export const ServerUrl = "https://course-vloger-backend.onrender.com";  
 
 import usegetCurrenthook from "./CustomHook/getCurrenthook";
 import { useSelector } from "react-redux";
